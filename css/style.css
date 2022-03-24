@@ -1,0 +1,398 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header, main, footer, nav, aside, section, div{
+    display: block;
+}
+
+a {
+    text-decoration: none;
+}
+
+header{
+    width: 100%;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
+ .logo{
+    background-image: url("../images/K-logo-modified.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 41px;
+    width: 41px;
+    display: block;
+}
+
+.logo span{
+    margin-top: 31px;
+    padding-top: 6px;
+    margin-left: 78px;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 30px;
+    color: #233348;
+    mix-blend-mode: normal;
+    display: block;
+    width: 285px;
+} 
+
+#buttom-logo{
+    margin-left: 25px;
+    margin-top: 70px;
+}
+
+#buttom-logo .logo span{
+    margin-left: 60px;
+    width: 360px;
+    height: 36px;;
+} 
+
+nav {
+    margin-top: 34px;
+    margin-left: 25px;
+}
+
+nav a {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #1F1534;
+    opacity: 0.5;
+    margin-right: 40px;
+}
+
+nav a:hover{
+    font-weight: 700;
+    opacity: 1;
+}
+
+nav a.selected-nav{
+    font-weight: 700;
+    opacity: 1;
+}
+
+#intro-section{
+    margin-left: 25px; 
+}
+
+#intro-section h2{
+    margin-left: 25px;
+    margin-top: 83px;
+    font-style: normal;
+    font-weight: 700;   
+    font-size: 42px;
+    line-height: 53px;
+    color: #1F1534;
+}
+
+#intro-section img{
+    width: 550px;
+    height: 475;
+    margin-top: 14px;
+}
+#intro-section h3, #action-section h3{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 56px;
+    color: #000000;
+    margin-top: 63px;
+}
+
+#intro-section p{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 32px;
+    color: #7D7987;
+    mix-blend-mode: normal;
+    margin-top: 20px;
+    width: 430px;
+}
+
+#intro-section button{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 60px;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    background: #458FF6;
+    border-radius: 55px;
+    margin-top: 23px;
+    padding: 1px 40px 1px 40px;
+}
+
+#action-section{
+    margin-left: 25px; 
+}
+
+#action-section h3{
+    margin-top: 100px;
+}
+
+#action-section p{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    color: #7D7987;
+    mix-blend-mode: normal;
+    margin-top: 14px;
+    width: 952px;
+}
+
+#action-section hr{
+    width: 56px;
+    height: 2px;
+    background: #000000;
+    border-radius: 5px;
+    margin-left: 78px;
+    margin-top: 14px;
+}
+
+ #hollow-button{
+    margin-left: 25px;
+    margin-top: 33px;
+} 
+
+#hollow-button button{
+    margin-left: 25px;
+    border: 1.4px solid #458FF6;
+    box-sizing: border-box;
+    border-radius: 55px;
+    width: 200px;
+    height: 56px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 60px;
+    color: #458FF6;
+    mix-blend-mode: normal;
+}
+
+#icons-section{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 25px;
+    width: 1200px;
+    height: 750px;
+    margin-top: 100px;
+    margin-left: 25px;
+}
+
+#icons-section > section{
+    width: 350px;
+    height: 354px;
+    margin-right: 34px;
+    margin-bottom: 37px;
+    background: #ffffff;
+    box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+    border-radius: 20px;
+}
+
+#icons-section > section > h5{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 56px;
+    padding-left: 38px;
+    color: #000000;
+    mix-blend-mode: normal;
+    
+}
+
+#icons-section > section > p{
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 28px;
+    color: #7D7987;
+    mix-blend-mode: normal;
+    padding-left: 38px;
+    padding-right: 50px;
+}
+
+#icons-section > section > img{
+    width:60px;
+    padding-left: 38px;
+    margin-top: 50px;
+    display: block;
+}
+
+footer {
+    margin-top: 335px;
+    width: 100%;
+    height: 425px;
+    background-color: #5A98F2;
+}
+
+footer a{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 60px;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    word-spacing: 40px;
+    padding-left: 25px;
+}
+
+footer p{
+    margin-bottom: 50px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 28px;
+    mix-blend-mode: normal;
+    padding-left: 25px;
+    margin-top: 135px;
+}
+
+/* ------------------------- Testimonials stle ------------------------------------- */
+
+#reviews-section{
+    width: 1120px;
+    height: 470px;
+    background: linear-gradient(208.18deg, #67C3F3 9.05%, #5A98F2 76.74%);
+    border-radius: 24px;
+    margin-top: 20px;
+    margin-left: 25px;
+}
+
+#reviews-section h2{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    margin-left: 25px;
+    padding-top: 25px;
+}
+
+#reviews-section hr{
+    width: 56px;
+    height: 2px;
+    left: 271px;
+    top: 353px;
+    background: #FFFFFF;
+    border-radius: 6px;
+    margin-left: 246px;
+    margin-top: 10px;
+}
+
+#reviews-section p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 30px;
+    color: rgba(255, 255, 255, 0.9);
+    mix-blend-mode: normal;
+    width: 420;
+    padding-left: 25px;
+    padding-top: 10px
+}
+
+#reviews-section img{
+    width: 141px;
+    height: 141px;
+    padding-left: 67px;
+}
+
+#reviews-section h4{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 48px;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    margin-left: 67px;
+    padding-top: 0px;
+}
+
+#p-under-h4{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 48px;
+    color: #000000;
+    mix-blend-mode: normal;
+    padding-left: 20px;
+}
+
+#articles-section{
+    width: 1300px;
+    height: 725px;
+    margin-left: 25px;
+    margin-top: 70px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#articles-section article{
+    width: 350px;
+    height: 512px;
+    background: #FFFFFF;
+    box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+    border-radius: 20px;
+    margin-right: 35px;
+}
+
+#articles-section h2{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 56px;
+    color: #000000;
+    mix-blend-mode: normal;
+    padding-left: 25px;
+    padding-top: 70px;
+    width: 1100px;
+}
+
+#articles-section h4{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 32px;
+    color: #000000;
+    margin-left: 33px;
+    mix-blend-mode: normal;
+    width: 265px;
+}
+
+#articles-section article img{
+    width: 350px;
+    height: 246px;
+    margin-right: 5px;
+    border-radius: 15px 15px 0px 0px;
+    display: block;    
+}
+
+#articles-section p{
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 28px;
+    color: #7D7987;
+    mix-blend-mode: normal;
+    padding-left: 33px;
+    width: 265px;
+}
+
+#articles-section a{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 28px;
+    color: #4089ED;
+    mix-blend-mode: normal;
+    padding-left: 33px;
+}
